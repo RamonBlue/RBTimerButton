@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4Zh-Ie-Osu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYB-n1-v8O">
+                                <rect key="frame" x="0.0" y="128" width="600" height="55"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.43330573010948115" green="0.7196858288036958" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Gug-Rq-T0Z"/>
+                                </constraints>
+                                <state key="normal" title="Register via phone"/>
+                                <connections>
+                                    <action selector="phoneRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKt-0z-NUA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSr-qe-b6d">
+                                <rect key="frame" x="0.0" y="184" width="600" height="55"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.72817890904734317" blue="0.60100665393033881" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="IzT-bO-cSO"/>
+                                </constraints>
+                                <state key="normal" title="Register via email"/>
+                                <connections>
+                                    <action selector="mailRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0xc-Ho-Tae"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LSr-qe-b6d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Vj-U3-Ksa"/>
+                            <constraint firstItem="BYB-n1-v8O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="CE9-e1-1rj"/>
+                            <constraint firstAttribute="trailing" secondItem="BYB-n1-v8O" secondAttribute="trailing" id="Ht0-ey-phz"/>
+                            <constraint firstAttribute="trailing" secondItem="LSr-qe-b6d" secondAttribute="trailing" id="PHS-nB-LQP"/>
+                            <constraint firstItem="BYB-n1-v8O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nF1-af-ch7"/>
+                            <constraint firstItem="LSr-qe-b6d" firstAttribute="top" secondItem="BYB-n1-v8O" secondAttribute="bottom" constant="1" id="nec-fY-lmm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1hf-9H-c4Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1065" y="324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N0L-Up-Wjc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Zh-Ie-Osu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YqT-6U-5jf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TYu-7V-fgH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgd-n6-u1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="882" y="317"/>
+        </scene>
+    </scenes>
+</document>
