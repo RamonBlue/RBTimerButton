@@ -23,7 +23,7 @@
     
     timerButton.titleLabel.font = [UIFont systemFontOfSize:17];
     timerButton.timerKey = RB_DEFAULT_MAIL_TIMER_KEY;
-    timerButton.maxTimeInterval = 5;
+    timerButton.maxTimeInterval = 15;
     timerButton.displayLink.frameInterval = 30;
     __weak typeof(timerButton) weakButton = timerButton;
     timerButton.settingBlock = ^(NSTimeInterval time){

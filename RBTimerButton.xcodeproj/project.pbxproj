@@ -16,6 +16,7 @@
 		253AC1771CC4AE9A0025833E /* RBMailRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253AC1761CC4AE9A0025833E /* RBMailRegisterViewController.m */; };
 		253AC17A1CC4B0A90025833E /* RBPhoneRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253AC1791CC4B0A90025833E /* RBPhoneRegisterViewController.m */; };
 		764444F91CC64C6900649F7C /* RBTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 764444F81CC64C6900649F7C /* RBTimerButton.m */; };
+		7647F7AA1CC692450057E980 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7647F7A91CC692450057E980 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		253AC1791CC4B0A90025833E /* RBPhoneRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPhoneRegisterViewController.m; sourceTree = "<group>"; };
 		764444F71CC64C6900649F7C /* RBTimerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTimerButton.h; sourceTree = "<group>"; };
 		764444F81CC64C6900649F7C /* RBTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTimerButton.m; sourceTree = "<group>"; };
+		7647F7A91CC692450057E980 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				253AC1791CC4B0A90025833E /* RBPhoneRegisterViewController.m */,
 				253AC1751CC4AE9A0025833E /* RBMailRegisterViewController.h */,
 				253AC1761CC4AE9A0025833E /* RBMailRegisterViewController.m */,
+				7647F7A91CC692450057E980 /* Icon.png */,
 				764444F61CC64C6900649F7C /* RBTimer */,
 				253AC15D1CC470B50025833E /* Main.storyboard */,
 				253AC1601CC470B50025833E /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7647F7AA1CC692450057E980 /* Icon.png in Resources */,
 				253AC1641CC470B50025833E /* LaunchScreen.storyboard in Resources */,
 				253AC1611CC470B50025833E /* Assets.xcassets in Resources */,
 				253AC15F1CC470B50025833E /* Main.storyboard in Resources */,
