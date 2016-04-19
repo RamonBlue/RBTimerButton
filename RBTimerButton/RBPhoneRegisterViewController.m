@@ -17,6 +17,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     RBTimerButton *timerButton = [[RBTimerButton alloc] initWithFrame:CGRectMake(20, 100, 120, 40)];
+    timerButton.maxTimeInterval = 5;
     timerButton.layer.cornerRadius = 4;
     timerButton.clipsToBounds = YES;
     [self.view addSubview:timerButton];

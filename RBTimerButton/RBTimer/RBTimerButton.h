@@ -27,7 +27,7 @@ extern NSString *const RB_DEFAULT_MAIL_TIMER_KEY;
 /**
  *  Has default value, you can customize
  */
-@property(nonatomic, copy)void(^settingBlock)(CGFloat timeInterval);
+@property(nonatomic, copy)void(^settingBlock)(NSTimeInterval timeInterval);
 
 - (BOOL)hasReachedMaxTimeInterval;
 - (void)startTimer;
